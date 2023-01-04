@@ -1,0 +1,9 @@
+import random
+print('RANDOM STORY GENERATOR')
+while True:
+    instruction=input('Press Y if you want to read a story: ')
+    if instruction=='y':
+        a=["MERCY WANT TO BECOME A NURSE \nMercy want to become a nurse when she grow up. she likes to take care of people.\n\tMercy's mother is a nurse.Mercy loves the white uniform that her mother wears every morning.Her mother also wears a white cap.'Do you know what nurses do?'Mercy's mother asks. \n'Yes mummy, I know what they do. Nurses take care of people who are sick in the hospital'.Mercy is happy.","DAVID WANTS TO BECOME A LAWYER\nDavid loves to listen to news and also loves to read a lot of books.\n\tDavid is very sure he wants to become a lawyer when he grows up.His father has taken him to the high court once.\n\tDavid saw the lawyers dressed in black gowns and wigs.They all looked so fine.\n\tLawyers defend people who have a case in the court of law.They also help people in many other ways.","HASSAN WANTS TO BECOME AN ENGINEER\n\t Hassan has a beautiful bicycle. He repairs his bicycle by himself anytime it get spoilt. Hassan would like to become an engineer when he grows up.\n\tAn engineer builds and repairs things such as roads and machines.","WALE WANTS TO BECOME A DOCTOR\n\tWale wants to become a doctor when he grows up.\n\tHe likes the doctors that he sees anytime he goes to the hospital.\n\tDoctors treat people who are sick or injured.","CHIDINMA WANTS TO BECOME A PILOT\n\tChidinma is travelling by air for the first time. Her mother took her to the cockpit to see the pilot. Chidinma is about this.\n\t'How are you my dear?'The pilot greets.'I am fine,thank you, sir,'Chidinma replies.The pilot asked her what she will likes to become.\n\tshe said she would like to become a pilot.The pilot asked her if she knows what pilots do.she replied, pilots fly aeroplanes. "]
+        print(random.choice(a))
+    else:
+        quit()
